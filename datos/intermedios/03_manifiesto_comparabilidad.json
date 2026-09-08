@@ -1,0 +1,32 @@
+{
+  "version_base": "03_v1",
+  "hereda_de": "02_v5",
+  "corte_datos": "2026-09-06",
+  "alcance": "Capa de analisis comparativo. No limpia ni reclasifica contratos y no recalcula atributos del contrato: los toma del cuaderno 02.",
+  "deflactor_ipc": {
+    "fuente": "DANE - IPC base 2018, variacion anual diciembre-diciembre",
+    "inflacion_dic": {
+      "2020": 0.0161,
+      "2021": 0.0562,
+      "2022": 0.1312,
+      "2023": 0.0928,
+      "2024": 0.052,
+      "2025": 0.051
+    },
+    "inflacion_2026_proyectada": 0.048,
+    "anio_base_pesos_constantes": 2025,
+    "metodo": "Indice mensual por interpolacion geometrica entre diciembres",
+    "pendiente": "Reemplazar por la serie mensual oficial del IPC antes de publicar (sustituir la columna ipc_indice)."
+  },
+  "ventanas": {
+    "24m_calendario": "SECUNDARIA. No alineada por mes de gobierno.",
+    "anio3_mismo_corte": "Alineada (meses de gobierno 25-33).",
+    "gob_16_33": "Alineada, 18 meses (meses de gobierno 16-33). Comparacion principal."
+  },
+  "reglas_de_comparacion": [
+    "Los valores monetarios se comparan SOLO en pesos constantes.",
+    "Los volumenes se comparan SOLO en ventanas alineadas por mes de gobierno.",
+    "La escasez de registros de 2020-2021 es adopcion tardia de SECOP, no menor contratacion.",
+    "Los picos y caidas alrededor de octubre de 2023 responden al calendario electoral."
+  ]
+}

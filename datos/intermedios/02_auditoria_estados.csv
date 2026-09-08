@@ -1,0 +1,9 @@
+﻿estado_contrato,estado_norm,estado_analitico,criterio_estado,registros,valor_total
+Cerrado,CERRADO,Incluir,Estado contractual valido,19830,507736833167.99
+En ejecución,EN EJECUCION,Incluir,Estado contractual valido,10027,300123263684.67
+Modificado,MODIFICADO,Incluir,Estado contractual valido,4181,858619350109.38
+terminado,TERMINADO,Incluir,Estado contractual valido,3174,261978551368.96
+Aprobado,APROBADO,Incluir,Aprobado con firma proveedor y valor positivo,325,15806325313.67
+Suspendido,SUSPENDIDO,Incluir,Estado contractual valido,16,44985792058.74
+cedido,CEDIDO,Incluir,Estado contractual valido,13,272534700.0
+Aprobado,APROBADO,Revisar,Aprobado sin soporte suficiente,8,0.0

@@ -1,0 +1,30 @@
+﻿tipo_de_contrato,familia_contrato,contratos,proveedores,valor_total
+Arrendamiento de inmuebles,Arrendamiento,172,65,20421513292.38
+Arrendamiento de inmuebles,Prestacion servicios persona natural por objeto explicito,1,1,1015000.0
+Arrendamiento de muebles,Arrendamiento,1,1,899668799.0
+Asociación Público Privada,Asociacion publico privada,2,2,419146317.62
+Comodato,Comodato,63,45,1583770428.0
+Compraventa,Bienes y suministros,169,84,29152719533.82
+Compraventa,Regimen especial persona natural por revisar,5,3,175394800.0
+Compraventa,Convenios e interadministrativos,1,1,886550000.0
+Consultoría,Consultoria e interventoria,35,22,19892795310.05
+Decreto 092 de 2017,Prestacion servicios persona natural por objeto explicito,1824,1024,23072202995.29
+Decreto 092 de 2017,Entidad sin animo de lucro (ESAL) / Decreto 092,915,181,263295756813.1
+Decreto 092 de 2017,Regimen especial persona natural por revisar,163,42,5918281754.0
+Interventoría,Consultoria e interventoria,59,41,26832062464.51
+No Especificado,Prestacion servicios persona natural por objeto explicito,1,1,8400000.0
+Obra,Obra,97,75,271742091652.33
+Obra,Convenios e interadministrativos,1,1,0.0
+Otro,Regimen especial persona juridica o grupo,116,32,134110708374.03
+Otro,Convenios e interadministrativos,80,28,182535876109.53
+Otro,Otros por revisar,1,1,29300000.0
+Prestación de servicios,CPS persona natural estricto,32778,9926,392266631156.97
+Prestación de servicios,Servicios empresa o grupo,732,260,522930177346.63
+Prestación de servicios,Prestacion servicios persona natural por revisar,87,35,6396051617.0
+Seguros,Seguros,38,9,16065747573.0
+Servicios financieros,Convenios e interadministrativos,1,1,13500000.0
+Suministros,Bienes y suministros,218,83,59223846500.15
+Suministros,Regimen especial persona natural por revisar,3,2,52565666.0
+Suministros,Prestacion servicios persona natural por objeto explicito,1,1,24026000.0
+Venta inmuebles,Otros por revisar,1,1,11558048200.0
+Venta muebles,Otros por revisar,1,1,14802700.0

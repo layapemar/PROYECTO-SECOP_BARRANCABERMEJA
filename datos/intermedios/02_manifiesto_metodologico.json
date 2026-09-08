@@ -1,0 +1,52 @@
+{
+  "version_base": "02_v5",
+  "corte_datos": "2026-09-06",
+  "unidad_analisis": "Contrato digital SECOP II",
+  "entidades": "La Alcaldia se identifica por NIT 890201900. La Empresa Social del Estado Barrancabermeja se identifica por NIT 829001846 y se analiza como entidad separada, igual que las demas entidades locales.",
+  "servicios_persona_natural_entidades": "Se crea un universo adicional que combina contratos tipificados por SECOP como Prestacion de servicios y contratos cuyo objeto dice explicitamente PRESTACION DE SERVICIOS aunque SECOP use otra categoria. Este universo se analiza por entidad y no se mezcla automaticamente con los CPS de la Alcaldia.",
+  "identidad_proveedor": "Documento del proveedor como llave principal. Nombre canonico solo para presentacion.",
+  "universo_cps_principal": "Prestacion de servicios, persona natural, evidencia de profesional o apoyo a la gestion y contrato valido.",
+  "familia_contractual": "Se prioriza CPS antes de clasificaciones textuales. Tipo de contrato SECOP es la fuente principal para obra, bienes, seguros, consultoria y otras familias.",
+  "politica_nulos": "No imputar fechas, valores, duracion ni subtipo CPS. Excluir solo de la metrica afectada.",
+  "politica_estados": "Excluir borrador, cancelado, anulado, eliminado, rechazado, desistido, revocado y abortado. Estados no resueltos no entran a la base analitica.",
+  "subtipo_cps": "Profesional y apoyo solo se comparan cuando la evidencia textual es clara. Casos ambiguos se conservan sin imputacion.",
+  "esal": "ESAL significa Entidad sin animo de lucro. La familia ESAL solo admite persona juridica o grupo. Las personas naturales no se clasifican como ESAL.",
+  "regimen_especial": "Contratos de regimen especial con persona juridica o grupo se mantienen fuera del universo CPS.",
+  "duracion": "Duracion registrada entre fecha de inicio y fecha de fin. Dias adicionados se auditan por separado y no se suman automaticamente.",
+  "valor_mensual": "Valor mensual equivalente aproximado. No equivale necesariamente al honorario mensual pactado.",
+  "valores": "Valores nominales. Comparaciones economicas entre gobiernos requieren IPC.",
+  "outliers": "Los valores extremos se marcan por entidad, subtipo y ano. Nunca se eliminan automaticamente.",
+  "anio_gobierno": {
+    "inicio_mandatos": {
+      "Alfonso Eljach": "2020-01-01",
+      "Jonathan Vasquez": "2024-01-01"
+    },
+    "variables_creadas": [
+      "mes_gobierno",
+      "anio_gobierno"
+    ],
+    "nota": "Posicion del contrato dentro del mandato (mes 1 a 48). Permite comparar fases equivalentes de gobierno en lugar de anos calendario."
+  },
+  "calendario_electoral": {
+    "elecciones_territoriales": [
+      "2019-10-27",
+      "2023-10-29",
+      "2027-10-29"
+    ],
+    "meses_restriccion_garantias": 4,
+    "variables_creadas": [
+      "periodo_electoral",
+      "periodo_preelectoral",
+      "tipo_anio_electoral",
+      "ventana_ley_garantias",
+      "dias_a_prox_eleccion"
+    ],
+    "nota": "Ventana de ley de garantias = 4 meses previos a cada eleccion territorial. No constituye un juicio de cumplimiento normativo sobre ningun contrato individual."
+  },
+  "ventanas_comparables": {
+    "32_meses": "Alfonso abr-2021 a nov-2023; Jonathan ene-2024 a ago-2026",
+    "24_meses": "Alfonso ene-2022 a dic-2023; Jonathan ene-2024 a dic-2025",
+    "tercer_anio_mismo_corte": "Alfonso ene-2022 a 6-sep-2022; Jonathan ene-2026 a 6-sep-2026"
+  },
+  "estado_base": "APROBADA CON ADVERTENCIAS CONTROLADAS"
+}

@@ -1,0 +1,15 @@
+﻿control,valor,estado
+ID contrato duplicado,0.0,PASS
+CPS estricto fuera de familia CPS,0.0,PASS
+ESE mezclada dentro de CPS de Alcaldia,0.0,PASS
+Inconsistencia Alcaldia entre NIT y flag,0.0,PASS
+ESAL clasificada con persona natural,0.0,PASS
+Proveedor sin clasificar,0.0,PASS
+Estado contractual por revisar,8.0,WARNING
+Fechas invertidas,5.0,WARNING
+Otros por revisar,3.0,PASS
+Regimen especial persona natural por revisar,171.0,WARNING
+Documentos sospechosos,1.0,WARNING
+CPS probables fuera del estricto,87.0,PASS
+Claridad minima de subtipo CPS por alcalde,89.92,WARNING
+Maximo porcentaje CPS sin duracion,1.31,PASS

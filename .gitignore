@@ -31,24 +31,14 @@ __pycache__/
 # DATOS
 # ============================================================
 
-datos/
-
-*.csv
-*.xlsx
-*.xls
-*.parquet
-*.feather
-
-*.db
-*.sqlite
-*.duckdb
+# Los datos de este proyecto son públicos y se versionan.
 
 
 # ============================================================
 # ENTREGABLES PESADOS
 # ============================================================
 
-entregables/
+# Las tablas, gráficos e informes generados se versionan.
 
 
 # ============================================================
