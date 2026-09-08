@@ -13,8 +13,9 @@
   "esal": "ESAL significa Entidad sin animo de lucro. La familia ESAL solo admite persona juridica o grupo. Las personas naturales no se clasifican como ESAL.",
   "regimen_especial": "Contratos de regimen especial con persona juridica o grupo se mantienen fuera del universo CPS.",
   "duracion": "Duracion registrada entre fecha de inicio y fecha de fin. Dias adicionados se auditan por separado y no se suman automaticamente.",
-  "valor_mensual": "Valor mensual equivalente aproximado. No equivale necesariamente al honorario mensual pactado.",
+  "valor_mensual": "Se usa valor_mensual_ajustado. SECOP registra la fecha de fin REAL, de modo que un contrato terminado anticipadamente queda con duracion corta pero conserva el valor total pactado; dividir uno entre otro infla el valor mensual hasta tres veces. Si el contrato tiene estado de cierre definitivo (cerrado, terminado o liquidado) y quedo mas del 5 por ciento sin ejecutar, el valor mensual se calcula sobre el valor ejecutado, que corresponde al mismo periodo que la duracion registrada. La condicion de cierre definitivo es indispensable: el reporte de pagos llega con rezago, y entre contratos no cerrados la ejecucion parcial cae de 50 a 15 por ciento segun la antiguedad, mientras que entre los cerrados es estable en torno al 7 por ciento e igual para ambos alcaldes. Sin esa condicion se castigaria a la administracion con contratos mas recientes. Los contratos cerrados sin valor ejecutado reportado se marcan como no confiables y quedan fuera del analisis de valores.",
   "valores": "Valores nominales. Comparaciones economicas entre gobiernos requieren IPC.",
+  "duracion_no_analizable": "Se marcan (no se borran) los contratos con duracion cero -fecha de fin no diligenciada- y los CPS de mas de 12 meses -probable error en el ano de la fecha de fin-. Quedan excluidos de las estadisticas de duracion y valor mensual.",
   "outliers": "Los valores extremos se marcan por entidad, subtipo y ano. Nunca se eliminan automaticamente.",
   "anio_gobierno": {
     "inicio_mandatos": {

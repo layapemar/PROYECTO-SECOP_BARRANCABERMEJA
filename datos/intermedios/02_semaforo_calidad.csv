@@ -13,3 +13,7 @@ Documentos sospechosos,1.0,WARNING
 CPS probables fuera del estricto,87.0,PASS
 Claridad minima de subtipo CPS por alcalde,89.92,WARNING
 Maximo porcentaje CPS sin duracion,1.31,PASS
+Contratos con duracion cero,107.0,WARNING
+CPS con duracion mayor a 12 meses,1.0,WARNING
+CPS con ejecucion parcial (valor mensual ajustado),1171.0,WARNING
+CPS sin base confiable para valor mensual,322.0,WARNING
