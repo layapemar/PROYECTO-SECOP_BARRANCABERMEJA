@@ -1,0 +1,26 @@
+﻿periodo,personas,con_2_o_mas_entidades,con_3_o_mas_entidades,con_4_o_mas_entidades,personas_alcaldia,alcaldia_y_otra,pct_2_o_mas,pct_alcaldia_y_otra,alcaldia_y_INDERBA,alcaldia_y_ESE,alcaldia_y_Concejo,alcaldia_y_EDUBA,alcaldia_y_Tránsito,alcaldia_y_Personería,alcaldia_y_Hospital Regional,alcaldia_y_Contraloría,combinacion,entidad,primer_mes_con_10_o_mas
+abr-2021 al corte (solo CPS),9856.000000,1334.000000,190.000000,26.000000,8663.000000,1281.000000,13.534903,14.787025,323.000000,0.000000,631.000000,163.000000,127.000000,140.000000,46.000000,68.000000,,,
+abr-2021 al corte (con ESE por revisar),10467.000000,1701.000000,232.000000,33.000000,8663.000000,1628.000000,16.251075,18.792566,323.000000,397.000000,631.000000,163.000000,127.000000,140.000000,46.000000,68.000000,,,
+Alfonso Eljach,5623.000000,618.000000,60.000000,4.000000,4986.000000,586.000000,10.990574,11.752908,174.000000,0.000000,286.000000,81.000000,22.000000,62.000000,0.000000,25.000000,,,
+Jonathan Vásquez,6274.000000,590.000000,70.000000,4.000000,5256.000000,549.000000,9.403889,10.445205,97.000000,0.000000,297.000000,31.000000,67.000000,70.000000,39.000000,23.000000,,,
+,486.000000,,,,,,,,,,,,,,,,Alcaldía + Concejo,,
+,247.000000,,,,,,,,,,,,,,,,Alcaldía + INDERBA,,
+,110.000000,,,,,,,,,,,,,,,,Alcaldía + EDUBA,,
+,93.000000,,,,,,,,,,,,,,,,Alcaldía + Tránsito,,
+,74.000000,,,,,,,,,,,,,,,,Alcaldía + Personería,,
+,42.000000,,,,,,,,,,,,,,,,Alcaldía + Contraloría,,
+,41.000000,,,,,,,,,,,,,,,,Alcaldía + Hospital Regional,,
+,39.000000,,,,,,,,,,,,,,,,Alcaldía + Concejo + INDERBA,,
+,35.000000,,,,,,,,,,,,,,,,Alcaldía + Concejo + Personería,,
+,21.000000,,,,,,,,,,,,,,,,Alcaldía + Concejo + EDUBA,,
+,14.000000,,,,,,,,,,,,,,,,Alcaldía + Concejo + Tránsito,,
+,10.000000,,,,,,,,,,,,,,,,Alcaldía + Concejo + Contraloría,,
+,,,,,,,,,,,,,,,,,,Alcaldía Distrital de Barrancabermeja,2021-04
+,,,,,,,,,,,,,,,,,,Concejo de Barrancabermeja,2021-07
+,,,,,,,,,,,,,,,,,,Contraloría de Barrancabermeja,2022-01
+,,,,,,,,,,,,,,,,,,EDUBA (desarrollo urbano y vivienda),2021-08
+,,,,,,,,,,,,,,,,,,ESE Barrancabermeja,2022-08
+,,,,,,,,,,,,,,,,,,Hospital Regional del Magdalena Medio,2025-07
+,,,,,,,,,,,,,,,,,,INDERBA (deporte y recreación),2021-07
+,,,,,,,,,,,,,,,,,,Inspección de Tránsito y Transporte,2022-01
+,,,,,,,,,,,,,,,,,,Personería de Barrancabermeja,2022-01

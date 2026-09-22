@@ -1,0 +1,7 @@
+# Probado con Python 3.11 y 3.13
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+openpyxl>=3.1
+ipython>=8.0
+jupyter

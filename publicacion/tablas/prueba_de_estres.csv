@@ -1,0 +1,12 @@
+﻿hallazgo,indicador,supuesto_base,valor_base,supuesto_alternativo,valor_alternativo,conclusion
+P04,% personas con 7+ meses de contrato (2023 / 2025),Fechas finales registradas,39 % / 28 %,Sin los días de prórroga,37 % / 26 %,Se mantiene: 2023 por encima de 2025
+P06,Espera mediana entre contratos (días),Seguimiento de 365 días,47,Seguimiento de 180 días,36,"Cambia con el seguimiento: se publica el de 365 días, igual para todos"
+P06,Diferencia entre gobiernos en % renovado antes de 90 días,Diferencia Alfonso–Jonathan,no se publica,Rango entre años de terminación,40 % a 75 %,No se compara a los gobiernos: el año pesa más que el gobierno
+P09,Mediana real profesional 2021 → 2026 (millones),Contratos de 30 días o más,"5,11 → 4,23",Solo contratos de 90 días o más,"5,11 → 4,23",Se mantiene: erosión real con el tiempo
+P09,Cambio de la mediana real de apoyo 2021 → 2026,Solo contratos clasificados como apoyo,"-9,7 %",Contando los ambiguos como apoyo,"-9,7 %",Se mantiene la dirección
+P10,"Cambio real mediano, misma persona profesional",Último CPS con Alfonso vs primero con Jonathan,"+0,7 %","Misma persona, ene–ago 2022 vs 2026 (cuaderno 04)","-12,6 %",Cambia según el diseño: no se atribuye a un gobierno
+P12,% de contratistas de la Alcaldía con CPS en otra entidad,Solo CPS confirmados,15 %,Sumando registros por revisar de la ESE,19 %,Se mantiene el orden de magnitud
+P20,% de personas de 2023 que siguen en 2024,Solo Alcaldía central,30 %,CPS en cualquiera de las nueve entidades,33 %,Se mantiene: muy por debajo de la continuidad dentro de un gobierno (≥57 %)
+P22,Obra 2023 vs 2024 (miles de millones reales),Todos los contratos de obra,"198,4 vs 3,2",Sin el contrato de obra más grande de cada año,"167,1 vs 1,8",Se mantiene: 2023 muy por encima de 2024
+P01,"Cambio en personas con CPS, año 3",Ventana principal ene–ago del año 3,"+10,8 %",Rango en las tres ventanas del cuaderno 04,"+10,8 % a +26,5 %","Se mantiene la dirección; se publica el rango, no una cifra"
+P01,"Cambio en CPS firmados, año 3",Ventana principal ene–ago del año 3,"+22,4 %",Rango en las tres ventanas del cuaderno 04,"+22,4 % a +25,4 %","Se mantiene la dirección; se publica el rango, no una cifra"
