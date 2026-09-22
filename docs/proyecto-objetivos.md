@@ -2,39 +2,14 @@
 
 ## ANÁLISIS DE LA CONTRATACIÓN PÚBLICA EN BARRANCABERMEJA
 
-### Comparación de las administraciones de Alfonso Eljach y Jonathan Vásquez a partir de SECOP II
 
 # 1. CONTEXTO
 
 Este proyecto busca analizar las dinámicas de contratación pública de la Alcaldía Distrital de Barrancabermeja utilizando información disponible en SECOP II.
 
-El análisis se concentrará principalmente en las administraciones de:
-
-* Alfonso Eljach Manrique.
-* Jonathan Vásquez Gómez.
-
 Debido a las diferencias históricas en la implementación de SECOP II, no se asumirá automáticamente que todos los años de ambas administraciones tienen el mismo nivel de cobertura.
 
 Antes de realizar cualquier comparación se deberán establecer periodos homogéneos y metodológicamente comparables.
-
-# 2. OBJETIVO GENERAL
-
-Analizar comparativamente las dinámicas de contratación pública de la Alcaldía Distrital de Barrancabermeja durante las administraciones de Alfonso Eljach y Jonathan Vásquez, con énfasis en los contratos de prestación de servicios, identificando diferencias en número de contratos, personas contratadas, duración, valores, recurrencia de contratistas y comportamiento temporal de la contratación.
-
-# 3. OBJETIVOS ESPECÍFICOS
-
-## 3.1 Contratos de prestación de servicios
-
-Identificar y analizar los contratos de prestación de servicios celebrados durante cada administración.
-
-Determinar:
-
-* Número de CPS.
-* Evolución mensual.
-* Evolución anual.
-* Valor contratado.
-* Duración contractual.
-* Valor mensual equivalente.
 
 ## 3.2 Personas naturales contratadas
 
@@ -114,38 +89,7 @@ Determinar:
 * Valor contratado en cada administración.
 * Duración acumulada.
 
-# 4. COMPARACIÓN ENTRE ADMINISTRACIONES
-
-Las comparaciones deberán realizarse utilizando periodos homogéneos.
-
-No se compararán directamente periodos con diferente número de meses sin normalización.
-
-Se utilizarán indicadores como:
-
-* CPS por mes.
-* Personas contratadas por mes.
-* Valor contratado por mes.
-* Personas nuevas por mes.
-* Renovaciones por mes.
-* Contratos por persona.
-
-# 5. ANÁLISIS ELECTORAL
-
-Uno de los componentes principales del proyecto será estudiar el comportamiento de la contratación alrededor del calendario electoral.
-
-Se analizarán:
-
-* Años ordinarios.
-* Años preelectorales.
-* Años electorales.
-* Meses anteriores a elecciones.
-* Periodos sujetos a restricciones legales cuando corresponda.
-
-El objetivo será identificar cambios estadísticos en las dinámicas de contratación.
-
 ## Preguntas principales
-
-* ¿Aumenta el número de CPS cerca de elecciones?
 
 * ¿Aumenta el número de personas naturales contratadas?
 
@@ -159,31 +103,8 @@ El objetivo será identificar cambios estadísticos en las dinámicas de contrat
 
 * ¿Existen picos particulares de contratación?
 
-# 6. CONTRATISTAS DE MAYOR INTERÉS
 
-Se construirán diferentes rankings.
-
-## Por cantidad de contratos
-
-Personas con mayor número de CPS.
-
-## Por valor acumulado
-
-Personas con mayor valor total contratado.
-
-## Por valor mensual
-
-Contratos con mayor valor mensual equivalente.
-
-## Por permanencia
-
-Personas contratadas durante mayor cantidad de meses o años.
-
-## Por continuidad
-
-Personas que aparecen en ambas administraciones.
-
-# 7. VARIABLES PRINCIPALES
+# VARIABLES PRINCIPALES
 
 La base analítica deberá incluir, cuando estén disponibles, las siguientes variables:
 
@@ -276,9 +197,7 @@ Durante el procesamiento se crearán variables como:
 
 ## Contratación
 
-* ¿Qué administración firma más CPS por mes?
-
-* ¿Cómo evoluciona la contratación durante cada gobierno?
+* ¿Cómo evoluciona la contratación?
 
 * ¿Existen meses con concentraciones atípicas de contratos?
 
@@ -313,18 +232,6 @@ Durante el procesamiento se crearán variables como:
 * ¿Quiénes permanecen durante varios años?
 
 * ¿Qué contratistas pasan de una administración a otra?
-
-## Elecciones
-
-* ¿Cómo cambia la contratación antes de una elección?
-
-* ¿Aumentan los contratistas nuevos?
-
-* ¿Aumentan las renovaciones?
-
-* ¿Se reducen o amplían las duraciones?
-
-* ¿Existen picos estadísticos alrededor de determinados meses?
 
 # 11. CRITERIOS METODOLÓGICOS
 
