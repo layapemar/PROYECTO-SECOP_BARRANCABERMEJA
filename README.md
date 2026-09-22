@@ -7,7 +7,7 @@ Cubre el final del gobierno de Alfonso Eljach (abril de 2021 a diciembre de 2023
 El producto final es una historia ciudadana con 26 preguntas respondidas, cada una con su tabla, su gráfica, su nivel de evidencia
 y lo que **no** significa.
 
-- **Historia lista para leer:** [`publicacion/historia_ciudadana.html`](publicacion/historia_ciudadana.html) (un solo archivo, con las gráficas dentro).
+- **Historia lista para leer:** (un solo archivo, con las gráficas dentro).
 - **Metodología y decisiones:** [`docs/METODOLOGIA.md`](docs/METODOLOGIA.md).
 - **Dictamen metodológico y límites:** [`docs/DICTAMEN_METODOLOGICO.md`](docs/DICTAMEN_METODOLOGICO.md).
 
