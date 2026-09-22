@@ -2,7 +2,7 @@
 La Alcaldía se identifica por su NIT (890201900),Filtrar por ciudad,"La ciudad mezcla entidades autónomas (Concejo, Contraloría) con la Alcaldía."
 Cada entidad por separado; nada se suma al alcalde automáticamente,Sumar todo lo de Barrancabermeja,El Concejo y los órganos de control no dependen del alcalde.
 La persona es su número de documento,Usar el nombre,Los nombres cambian de escritura; el documento no.
-El análisis empieza en abril de 2021,Empezar en enero de 2021,Es el primer mes con registro pleno en SECOP II; la verificación con SECOP I la hace el 01 cuando tiene conexión y en esta ejecución no se pudo.
+El análisis empieza en abril de 2021,Empezar en enero de 2021,Antes de abril la Alcaldía publicaba en SECOP I: 734 registros de enero a marzo de 2021 y 31 de abril en adelante (verificado en el 01).
 Comparar alcaldes solo en la ventana principal (ene–ago del año 3),Comparar gobiernos completos o el año 2,Es la única ventana en la misma etapa del mandato con cobertura completa en SECOP II.
 Duración inclusiva (fin − inicio + 1),Restar fechas sin más,Restar pierde un día por contrato y subestima la cobertura.
 No sumar los días adicionados a la fecha final,Sumarlos,La prueba del 02 muestra que la fecha final ya los incluye.

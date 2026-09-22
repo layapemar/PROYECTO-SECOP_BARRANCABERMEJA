@@ -34,7 +34,7 @@ Primero, la escala: cuántos contratos, cuántas personas y cuánto dinero manej
 
 > **Qué no significa:** Más contratos no significa más empleo ni mejor gestión: un mismo trabajo puede partirse en varios contratos cortos. Los gobiernos están en etapas distintas del mandato; por eso se comparan ventanas equivalentes.
 
-<sub>Dato descriptivo · publicable · universo: Contratos válidos de la Alcaldía central (NIT 890201900); CPS de personas con identidad apta · límite: El periodo de Alfonso empieza en abril de 2021 (sin verificación externa en esta ejecución (el 01 no pudo consultar SECOP I); abril de 2021 es el primer mes con registro pleno en SECOP II). · tabla: p01_nueve_de_cada_diez_contratos_son_cps_con.csv</sub>
+<sub>Dato descriptivo · publicable · universo: Contratos válidos de la Alcaldía central (NIT 890201900); CPS de personas con identidad apta · límite: El periodo de Alfonso empieza en abril de 2021 (verificado: SECOP I tiene 734 registros de la Alcaldía de enero a marzo de 2021 y solo 31 de abril en adelante). · tabla: p01_nueve_de_cada_diez_contratos_son_cps_con.csv</sub>
 
 ### ¿Cuánto dinero es y qué parte se va en CPS?
 
@@ -298,7 +298,7 @@ Hallazgos que solo aparecen al seguir a las personas año tras año, y los lími
 
 ### ¿De dónde salen estos datos y qué tan completos son?
 
-**Datos públicos con huecos conocidos.** La consulta a SECOP I no se pudo hacer en esta ejecución (sin conexión), así que el paso de SECOP I a SECOP II en abril de 2021 no quedó verificado aquí; el análisis empieza en abril de 2021, primer mes con registro pleno en SECOP II. La lista de otras entidades de la ciudad en SECOP II no se pudo consultar en esta ejecución. El valor pagado aparece en 94 % de los CPS de 2022 pero en 60 % de los de 2026, que siguen en ejecución: por eso se usa el valor pactado. La clasificación profesional / apoyo a la gestión sale del objeto del contrato; cuando el objeto dice ambas cosas se usa la profesión u oficio nombrado (ingeniero, arquitecto, técnico, auxiliar…). Donde la etiqueta literal y la profesión existen a la vez, coinciden en el 98 % o más de los casos. Quedó ambiguo entre el 0,2 % y el 1,0 % de los CPS según el año.
+**Datos públicos con huecos conocidos.** SECOP I tiene 765 registros de la Alcaldía firmados en 2021: 734 entre enero y marzo y solo 31 de abril en adelante. Eso confirma que la Alcaldía pasó a SECOP II en abril de 2021 y que el análisis debe empezar ahí. La lista de otras entidades de la ciudad en SECOP II no se pudo consultar en esta ejecución. El valor pagado aparece en 94 % de los CPS de 2022 pero en 60 % de los de 2026, que siguen en ejecución: por eso se usa el valor pactado. La clasificación profesional / apoyo a la gestión sale del objeto del contrato; cuando el objeto dice ambas cosas se usa la profesión u oficio nombrado (ingeniero, arquitecto, técnico, auxiliar…). Donde la etiqueta literal y la profesión existen a la vez, coinciden en el 98 % o más de los casos. Quedó ambiguo entre el 0,2 % y el 1,0 % de los CPS según el año.
 
 > **Qué no significa:** La base no es un registro de nómina ni de pagos. El estado 'terminado' de SECOP depende de la antigüedad del contrato, no de cómo terminó.
 
@@ -375,7 +375,7 @@ Cada conclusión principal se recalculó con supuestos alternativos. Esto es lo 
 | La Alcaldía se identifica por su NIT (890201900) | Filtrar por ciudad | La ciudad mezcla entidades autónomas (Concejo, Contraloría) con la Alcaldía. |
 | Cada entidad por separado; nada se suma al alcalde automáticamente | Sumar todo lo de Barrancabermeja | El Concejo y los órganos de control no dependen del alcalde. |
 | La persona es su número de documento | Usar el nombre | Los nombres cambian de escritura; el documento no. |
-| El análisis empieza en abril de 2021 | Empezar en enero de 2021 | Es el primer mes con registro pleno en SECOP II; la verificación con SECOP I la hace el 01 cuando tiene conexión y en esta ejecución no se pudo. |
+| El análisis empieza en abril de 2021 | Empezar en enero de 2021 | Antes de abril la Alcaldía publicaba en SECOP I: 734 registros de enero a marzo de 2021 y 31 de abril en adelante (verificado en el 01). |
 | Comparar alcaldes solo en la ventana principal (ene–ago del año 3) | Comparar gobiernos completos o el año 2 | Es la única ventana en la misma etapa del mandato con cobertura completa en SECOP II. |
 | Duración inclusiva (fin − inicio + 1) | Restar fechas sin más | Restar pierde un día por contrato y subestima la cobertura. |
 | No sumar los días adicionados a la fecha final | Sumarlos | La prueba del 02 muestra que la fecha final ya los incluye. |
@@ -393,9 +393,9 @@ Python con pocas librerías, para que cualquiera pueda repetirlo. Cada cuaderno 
 
 | Librería | Versión | Para qué |
 |---|---|---|
-| pandas | 2.3.3 | Leer, limpiar, unir y resumir tablas. |
-| numpy | 2.2.6 | Cálculos vectorizados: series diarias, percentiles, Gini. |
-| matplotlib | 3.10.9 | Todas las gráficas. |
+| pandas | 3.0.5 | Leer, limpiar, unir y resumir tablas. |
+| numpy | 2.5.3 | Cálculos vectorizados: series diarias, percentiles, Gini. |
+| matplotlib | 3.11.1 | Todas las gráficas. |
 | openpyxl | (la que tenga instalada) | Leer el anexo del IPC del DANE (cuaderno 04). |
 | pathlib, json, hashlib | biblioteca estándar | Rutas relativas, manifiestos y huellas sha256 de cada archivo. |
 | urllib | biblioteca estándar | Descarga desde la API de datos.gov.co y verificaciones externas (cuaderno 01). |
